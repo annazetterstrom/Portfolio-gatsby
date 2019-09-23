@@ -1,21 +1,35 @@
 import React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Projects from "../components/projects"
 
+
+
+let projectArray = [
+  {project: "Webshop", picture: "/static/webshop.png", excerpt: "This is a webshop we created in our Javascript course", link: "https://annazetterstrom.github.io/webshop/"},
+  {project: "Frontend Project", picture: "/static/frontend.png", excerpt: "This is a website with tutorials in HTML, CSS, Javascript and Adobe XD", link: "https://annazetterstrom.github.io/fend-tutorials/"}
+]
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <h1>This is my portfolio</h1>
+    <p>Below you can see my.</p>
+    <div>
+   {
+     projectArray.map((projectData, i) => {
+       return (
+        <Projects 
+          project= {projectData.project}
+          picture= {projectData.picture}
+          excerpt={projectData.excerpt}
+          link= {projectData.link}
+          key={'project'+i}
+       /> )
+     })
+   } 
+  </div>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
-
 export default IndexPage

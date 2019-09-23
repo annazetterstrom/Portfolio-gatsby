@@ -1,0 +1,28 @@
+body,
+html {
+  height: 100%;
+  color: white; 
+  /* Parallax background */
+  background-image: url(/static/b3.jpg);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-shadow: none;
+  background-image: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
