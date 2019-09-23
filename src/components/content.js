@@ -4,7 +4,7 @@ export default () => (
     <div> 
          <h2>Resume and Courses</h2>
             <div>
-                <h4>Work Experience</h4>
+                <h3>Work Experience</h3>
                     <dl>
                         <dt> <b>Designtorget</b> </dt>
                         <dd>2014-08-Present</dd>
@@ -21,7 +21,7 @@ export default () => (
                      </dl>
             </div>
             <div>
-                <h4>Education</h4>
+                <h3>Education</h3>
                     <dl>
                         <dt> <b>Nackademin</b> </dt>
                         <dd><i>Graduation:</i> 2020</dd>
