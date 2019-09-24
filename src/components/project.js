@@ -13,7 +13,11 @@ export default props => (
     </div>
 )
 
-// class Project extends Component {
+
+
+
+
+// class Project extends Component { 
 //   constructor(props){
 //     this.props = props
 //   }

@@ -4,7 +4,7 @@ import Project from "./project";
 let projectArray = [
   {
     project: "Kanye", 
-    picture: "/cursor.png", 
+    picture: "/kanye.jpg", 
     excerpt: "This is a website about Kanye West", 
     link: "https://focused-hodgkin-83d280.netlify.com/"
   },
