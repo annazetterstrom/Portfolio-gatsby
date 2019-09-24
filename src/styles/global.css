@@ -5,7 +5,7 @@ html {
   height: 100%;
   color: white; 
   /* Parallax background */
-  background-image: url(/static/b3.jpg);
+  background-image: url('/static/b3.jpg');
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
