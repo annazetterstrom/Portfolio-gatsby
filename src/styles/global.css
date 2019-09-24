@@ -56,7 +56,7 @@ footer{
 }
 
 /* Form */
-
+.form,
 .form input,
 .form textarea {
     width: 100%;

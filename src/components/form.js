@@ -5,13 +5,12 @@ export class Form extends Component {
     render() {
         return (
             <div>
-                <form name="contact" method="POST" netlify className="form">
-                <input type="hidden" name="form-name" value="contact" />
-                <input type="text" name="name" placeholder="Name" />
-                <input type="email" name="email" placeholder="Email" required />
-                <textarea name="message" cols="50" rows="10" placeholder="Message"></textarea>
-                <input type="submit" value="Send" />
-                </form>
+             <form className="form" name="Contact Form" method="POST" data-netlify="true">
+                <input type="hidden" name="form-name" value="Contact Form" />
+                <input type="email" name="email" placeholder="Email"/>
+                <textarea name="message" cols="40" rows="10" placeholder="Message"/>
+                <button type="submit">Send</button>
+            </form>
             </div>
         )
     }
