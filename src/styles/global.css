@@ -15,6 +15,30 @@ html {
   background-size: cover;
 
 }
+/* Intro */
+.intro{
+  opacity: 1; 
+  transition: all 500ms; 
+  position: fixed; 
+  background-color: black; 
+  width: 100%;
+  z-index: 2; 
+  left: 0; 
+  top: 0; 
+  bottom: 0; 
+  right: 0; 
+  text-align: center;
+  padding-top: 45vh;
+}
+.text{
+  opacity: 1; 
+  transition: all 500ms; 
+  height: 500px;
+}
+.displayNone{
+  opacity: 0; 
+
+}
 /* Links */
 a {
   color: white;
@@ -47,6 +71,14 @@ a:hover {
 }
 
 /* Footer */
+.links{
+  width: 30px;
+  height: auto;
+}
+.links:hover{
+    width: 40px;
+    height: auto;
+}
 footer{
   margin: 20px; 
   padding: 20px;

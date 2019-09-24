@@ -4,10 +4,11 @@ import Projects from "../components/projects"
 import Nav from "../components/nav"
 import Content from "../components/content"
 import Footer from "../components/footer"
-
+import Intro from "../components/intro"
 
 const IndexPage = () => (
   <Layout >
+    <Intro />
     <Nav />
     <Content  />
     <div>

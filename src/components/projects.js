@@ -20,12 +20,6 @@ let projectArray = [
     excerpt: "This is a website with tutorials in HTML, CSS, Javascript and Adobe XD", 
     link: "https://annazetterstrom.github.io/fend-tutorials/"
   },
-  {
-    project: "Html & CSS",
-    picture: "/b3.jpg",
-    excerpt: "This is....",
-    link: "https://annazetterstrom.github.io/project/"
-  }
 ]
 
 export default () => {
