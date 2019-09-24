@@ -9,13 +9,13 @@ import Footer from "../components/footer"
 const IndexPage = () => (
   <Layout >
     <Nav />
-    <Content  id="resume"/>
+    <Content  />
     <div>
    {
-    <Projects id="projects"/>
+    <Projects/>
    } 
   </div>
-  <Footer id="contact"/>
+  <Footer />
   </Layout>
 )
 export default IndexPage

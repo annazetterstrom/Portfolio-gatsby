@@ -3,6 +3,12 @@ import Project from "./project";
 
 let projectArray = [
   {
+    project: "Kanye", 
+    picture: "/cursor.png", 
+    excerpt: "This is a website about Kanye West", 
+    link: "https://focused-hodgkin-83d280.netlify.com/"
+  },
+  {
     project: "Webshop", 
     picture: "/webshop.png", 
     excerpt: "This is a webshop we created in our Javascript course", 

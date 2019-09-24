@@ -1,9 +1,9 @@
 import React from "react"
+import {Link} from "gatsby"
 
 export default () => (
     <nav className="nav">
-        <a href="#resume">Resume</a>
-        <a href="contact">Contact</a>
-        <a href="projects">Projects</a>
+        <Link to="/">Home</Link>
+        <Link to="/contact">Contact</Link>
     </nav>
 )
