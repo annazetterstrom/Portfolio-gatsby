@@ -2,21 +2,21 @@ import React from "react"
 import Layout from "../components/layout"
 import Projects from "../components/projects"
 import Nav from "../components/nav"
-import Content from "../components/content"
+import Resume from "../components/resume"
 import Footer from "../components/footer"
-import Intro from "../components/intro"
 
 const IndexPage = () => (
   <Layout >
-    <Intro />
     <Nav />
-    <Content  />
-    <div>
-   {
-    <Projects/>
-   } 
-  </div>
-  <Footer />
+    <Resume />
+
+    <div className="projects-section">
+      <h2 className="section-title">Projects</h2>
+      <Projects/>
+    </div>
+
+    <Footer />
   </Layout>
 )
+
 export default IndexPage

@@ -1,7 +1,8 @@
-import React from "react"
+import React, { useState, useLayoutEffect } from "react"
 import Project from "./project";
+import { useTrail, animated } from 'react-spring'
 
-let projectArray = [
+let projects = [
   {
     project: "Kanye", 
     picture: "/kanye.jpg", 
@@ -23,25 +24,53 @@ let projectArray = [
 ]
 
 export default () => {
-  let projects = (
-    projectArray.map((projectData, i) => {
-      return (
-       <Project 
-         project= {projectData.project}
-         picture= {projectData.picture}
-         excerpt={projectData.excerpt}
-         link= {projectData.link}
-         key={'project'+i}
-      /> )
-    })
-  )
+  const [isVisible, setIsVisible] = useState(false)
+
+  const trail = useTrail(projects.length, {
+    from: {
+      marginTop: -20,
+      opacity: isVisible ? 0 : 1,
+      transform: 'translate3d(0,-40px,0)'
+    },
+    to: {
+      marginTop: 20,
+      opacity: isVisible ? 1 : 0,
+      transform: 'translate3d(0,0px,0)'
+    }
+  })
+
+  useLayoutEffect(() => {
+    const onScroll = () => {
+      if (window.pageYOffset > 600)
+        setIsVisible(true) 
+    }
+
+    window.addEventListener("scroll", onScroll);
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+    };
+  });
+
   return (
     <div className="container">
-      {projects}
+      <div className="trails-main">
+        <div>
+          {trail.map((props, index) => (
+            <animated.div
+              key={index}
+              className="trails-text"
+              style={props}>
+              <Project
+                project= {projects[index].project}
+                picture= {projects[index].picture}
+                excerpt={projects[index].excerpt}
+                link= {projects[index].link}
+                key={'project'+index}
+              />
+            </animated.div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 } 
-
-
-
-

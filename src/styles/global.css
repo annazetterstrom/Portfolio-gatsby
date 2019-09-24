@@ -1,9 +1,9 @@
 body,
 html {
-  margin: 3rem auto;
+  margin: 1rem auto;
   max-width: 600px;
-  height: 100%;
-  color: white; 
+  
+  color: black; 
   box-sizing: border-box;
 
   /* Parallax background */
@@ -13,8 +13,14 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
+
+body {
+  padding: 3rem;
+  background: white;
+  opacity: .7;
+}
+
 /* Intro */
 .intro{
   opacity: 1; 
@@ -41,13 +47,13 @@ html {
 }
 /* Links */
 a {
-  color: white;
+  color: black;
   text-decoration: none;
   text-shadow: none;
   background-image: none;
 }
 a:visited {
-  color: white;
+  color: black;
 }
 a:hover {
   text-decoration: underline;
@@ -68,6 +74,8 @@ a:hover {
 }
 .nav a {
   margin: 10px; 
+  color: white;
+
 }
 
 /* Footer */
@@ -85,6 +93,45 @@ footer{
   display: flex; 
   justify-content: space-around;
   opacity: 0.8;
+}
+
+/* Resume */
+.resume-container ul {
+  padding: 0;
+  margin: 0;
+}
+.resume-container.education {
+  margin-top: 2.5rem;
+}
+.resume-container.education .resume-item {
+  margin-top: 1.5rem;
+}
+.resume-container .resume-item {
+  list-style-type: none;
+  margin-top: 2.5rem;
+}
+.resume-container .resume-item:first-child {
+  margin-top: 1.6rem;
+}
+.resume-container .resume-item .role {
+  display: block;
+  margin-top: .4rem;
+}
+.resume-container .resume-item .role,
+.resume-container .resume-item .timespan {
+  color: #464646;
+}
+.resume-container .resume-item .major {
+  display: block;
+  margin-top: .5rem;
+}
+
+/* Projects */
+.projects-section {
+  margin-top: 3rem;
+}
+.projects-section .container {
+  margin-top: 1rem;
 }
 
 /* Form */
