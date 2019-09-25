@@ -41,7 +41,7 @@ export default () => {
 
   useLayoutEffect(() => {
     const onScroll = () => {
-      if (window.pageYOffset > 600)
+      if (window.pageYOffset > 900)
         setIsVisible(true) 
     }
 

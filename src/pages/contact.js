@@ -7,7 +7,7 @@ import Form from "../components/form";
 const ContactPage = () => (
     <Layout >
       <Nav />
-      <Form />
+     <Form />
     <Footer />
     </Layout>
   )

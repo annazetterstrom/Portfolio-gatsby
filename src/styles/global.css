@@ -1,8 +1,8 @@
+/* GLOBAL */
 body,
 html {
   margin: 1rem auto;
   max-width: 600px;
-  
   color: black; 
   box-sizing: border-box;
 
@@ -18,34 +18,10 @@ html {
 body {
   padding: 3rem;
   background: white;
-  opacity: .7;
+  opacity: .6;
 }
 
-/* Intro */
-.intro{
-  opacity: 1; 
-  transition: all 500ms; 
-  position: fixed; 
-  background-color: black; 
-  width: 100%;
-  z-index: 2; 
-  left: 0; 
-  top: 0; 
-  bottom: 0; 
-  right: 0; 
-  text-align: center;
-  padding-top: 45vh;
-}
-.text{
-  opacity: 1; 
-  transition: all 500ms; 
-  height: 500px;
-}
-.displayNone{
-  opacity: 0; 
-
-}
-/* Links */
+/* LINKS */
 a {
   color: black;
   text-decoration: none;
@@ -63,29 +39,33 @@ a:hover {
   margin: 3rem auto;
   max-width: 600px;
 }
-/* Hamburger menu*/
+/* NAV */
 .nav{
+  /* width: 100%;
+  text-align: center; */
   position: fixed; 
   display: block; 
   margin: 5px; 
-  z-index: 1;
-  right: 10px;
+  z-index: 5;
   top: 10px; 
+  right: 500px; 
+  background: white; 
+  opacity: .8; 
 }
 .nav a {
   margin: 10px; 
-  color: white;
+  color: black;
 
 }
 
-/* Footer */
+/* FOOTER */
 .links{
   width: 30px;
   height: auto;
 }
-.links:hover{
-    width: 40px;
-    height: auto;
+.links a:hover{
+    border-bottom: 10px solid #464646;  
+
 }
 footer{
   margin: 20px; 
@@ -95,7 +75,7 @@ footer{
   opacity: 0.8;
 }
 
-/* Resume */
+/* RESUME */
 .resume-container ul {
   padding: 0;
   margin: 0;
@@ -126,7 +106,7 @@ footer{
   margin-top: .5rem;
 }
 
-/* Projects */
+/* PROJECT */
 .projects-section {
   margin-top: 3rem;
 }
@@ -134,7 +114,11 @@ footer{
   margin-top: 1rem;
 }
 
-/* Form */
+/* FORM */
+.form input,
+.form textarea{
+  border: 2px solid grey;
+}
 .form,
 .form input,
 .form textarea {
@@ -142,7 +126,6 @@ footer{
     font-family: 'PT Serif', serif;
     color: grey;
     border-radius: 5px;
-    border: 2px solid grey;
     padding: 5px;
     margin: 10px auto;
     text-align: center;
