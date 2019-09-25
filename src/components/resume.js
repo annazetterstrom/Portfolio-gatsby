@@ -19,7 +19,6 @@ const ResumeEducationItem = ({title, graduation, major}) => (
 
 export default () => (
     <div> 
-         <h2>Resume and Courses</h2>
             <div className="resume-container work">
                 <h3>Work Experience</h3>
                 <ul>                    
@@ -32,17 +31,15 @@ export default () => (
                     />
                     <ResumeWorkItem
                         title="Hasselbacken Eventfloor"
-                        timespan="2014-08 - Present"
-                        role="Ecommerce Employee"
-                        description="I´ve worked in the Designtorget stores since August 2014. In April 2018 I started working in their
-                        ecommerce instead."
+                        timespan="2016-06-2016-10"
+                        role="Eventstaff and waitress"
+                        description="Worked extra as a waitress at weddings, conferences and parties etc."
                     />
                     <ResumeWorkItem
                         title="McDonalds"
-                        timespan="2014-08 - Present"
-                        role="Ecommerce Employee"
-                        description="I´ve worked in the Designtorget stores since August 2014. In April 2018 I started working in their
-                        ecommerce instead."
+                        timespan="2012-03-2012-08"
+                        role="Cashier"
+                        description="Worked extra as a cashier while I was in High School."
                     />
                 </ul>
             </div>
@@ -56,19 +53,14 @@ export default () => (
                         major="Front-end Development"
                 />
                 <ResumeEducationItem
-                        title="Nackademin"
-                        graduation="2020"
-                        major="Front-end Development"
+                        title="Gustavsbergs Gymnasium"
+                        graduation="2015"
+                        major="Makeup artist and stylist"
                 />
                 <ResumeEducationItem
-                        title="Nackademin"
-                        graduation="2020"
-                        major="Front-end Development"
-                />
-                <ResumeEducationItem
-                        title="Nackademin"
-                        graduation="2020"
-                        major="Front-end Development"
+                        title="Poston Butte High School"
+                        graduation="2014"
+                        major="High School Exhange Year"
                 />
                 </ul>
             </div>

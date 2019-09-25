@@ -4,10 +4,12 @@ import Projects from "../components/projects"
 import Nav from "../components/nav"
 import Resume from "../components/resume"
 import Footer from "../components/footer"
+import About from "../components/About"
 
 const IndexPage = () => (
   <Layout >
     <Nav />
+    <About />
     <Resume />
 
     <div className="projects-section">

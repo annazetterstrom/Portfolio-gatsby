@@ -41,14 +41,14 @@ a:hover {
 }
 /* NAV */
 .nav{
-  /* width: 100%;
-  text-align: center; */
+  font-size: 1.2rem;
   position: fixed; 
   display: block; 
-  margin: 5px; 
+  margin: .5rem; 
+  padding: .7rem;
+  right: 2rem; 
   z-index: 5;
   top: 10px; 
-  right: 500px; 
   background: white; 
   opacity: .8; 
 }
@@ -58,14 +58,26 @@ a:hover {
 
 }
 
+/* ABOUT */
+
+.me-img{
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 /* FOOTER */
 .links{
   width: 30px;
   height: auto;
 }
-.links a:hover{
-    border-bottom: 10px solid #464646;  
-
+footer a:hover{
+  border-bottom: 1px solid #464646;  
+  
 }
 footer{
   margin: 20px; 
@@ -74,6 +86,7 @@ footer{
   justify-content: space-around;
   opacity: 0.8;
 }
+
 
 /* RESUME */
 .resume-container ul {
@@ -133,3 +146,31 @@ footer{
     max-width: 75%;
 }
 
+@media screen and (min-width: 600px){
+  .nav{
+    font-size: 1.2rem;
+    position: fixed; 
+    display: block; 
+    margin: .5rem; 
+    padding: .7rem;
+    right: 15rem; 
+    z-index: 5;
+    top: 10px; 
+    background: white; 
+    opacity: .8; 
+  }
+  .nav a {
+    margin: 10px; 
+    color: black;
+  
+  }
+  .me-img{
+    width: 300px;
+    height: auto;
+    border-radius: 50%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+  }
+}
