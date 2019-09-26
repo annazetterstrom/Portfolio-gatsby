@@ -1,14 +1,13 @@
+/* PROJECTS */
 .projects {
     display: flex;
     align-items: center;
     margin: 0 auto 12px auto;
     border-bottom: 2px solid black; 
   }
-  
   .projects:last-child {
     margin-bottom: 0;
   }
-  
   .picture {
     flex: 0 0 96px;
     width: 96px;
@@ -16,40 +15,15 @@
     opacity: 0.7; 
     padding: 5px;
   }
-  
   .description {
     flex: 1;
     margin-left: 18px;
     padding: 12px;
   }
-  
   .project {
     margin: 0 0 12px 0;
     padding: 0;
   }
-  
   .excerpt {
     margin: 0;
-  }
-
-  /* LETTERS */
-  .ml9 {
-    position: relative;
-    font-weight: 200;
-    font-size: 4em;
-  }
-  
-  .ml9 .text-wrapper {
-    position: relative;
-    display: inline-block;
-    padding-top: 0.2em;
-    padding-right: 0.05em;
-    padding-bottom: 0.1em;
-    overflow: hidden;
-  }
-  
-  .ml9 .letter {
-    transform-origin: 50% 100%;
-    display: inline-block;
-    line-height: 1em;
   }

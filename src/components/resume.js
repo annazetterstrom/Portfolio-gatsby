@@ -41,6 +41,12 @@ export default () => (
                         role="Cashier"
                         description="Worked extra as a cashier while I was in High School."
                     />
+                     <ResumeWorkItem
+                        title="Redcross"
+                        timespan="2014-08-2015-01 / 2019-09- Present"
+                        role="Volunteer"
+                        description="Volunteered at the youth program for child refugees."
+                    />
                 </ul>
             </div>
 
@@ -48,19 +54,24 @@ export default () => (
                 <h3>Education</h3>
                 <ul>
                 <ResumeEducationItem
-                        title="Nackademin"
-                        graduation="2020"
-                        major="Front-end Development"
+                    title="Nackademin"
+                    graduation="2020"
+                    major="Front-end Development"
                 />
                 <ResumeEducationItem
-                        title="Gustavsbergs Gymnasium"
-                        graduation="2015"
-                        major="Makeup artist and stylist"
+                    title="Gustavsbergs Gymnasium"
+                    graduation="2015"
+                    major="Makeup artist and stylist"
                 />
                 <ResumeEducationItem
-                        title="Poston Butte High School"
-                        graduation="2014"
-                        major="High School Exhange Year"
+                    title="Astar"
+                    graduation="2017"
+                    major="Pastrychef"
+                />
+                <ResumeEducationItem
+                    title="Poston Butte High School"
+                    graduation="2014"
+                    major="High School Exhange Year"
                 />
                 </ul>
             </div>

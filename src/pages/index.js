@@ -1,9 +1,9 @@
 import React from "react"
-import Layout from "../components/layout"
-import Projects from "../components/projects"
-import Nav from "../components/nav"
-import Resume from "../components/resume"
-import Footer from "../components/footer"
+import Layout from "../components/Layout"
+import Projects from "../components/Projects"
+import Nav from "../components/Nav"
+import Resume from "../components/Resume"
+import Footer from "../components/Footer"
 import About from "../components/About"
 
 const IndexPage = () => (
