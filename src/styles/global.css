@@ -174,3 +174,31 @@ footer{
     opacity: 1; 
   }
 }
+@media screen and (min-width: 1097px){
+  .nav{
+    font-size: 1.2rem;
+    position: fixed; 
+    display: block; 
+    margin: .5rem; 
+    padding: .7rem;
+    right: 20rem; 
+    z-index: 5;
+    top: 10px; 
+    background: white; 
+    opacity: .8; 
+  }
+}
+@media screen and (min-width: 1150px){
+  .nav{
+    font-size: 1.2rem;
+    position: fixed; 
+    display: block; 
+    margin: .5rem; 
+    padding: .7rem;
+    right: 26rem; 
+    z-index: 5;
+    top: 10px; 
+    background: white; 
+    opacity: .8; 
+  }
+}
