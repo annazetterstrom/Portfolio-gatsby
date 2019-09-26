@@ -9,8 +9,7 @@ const ResumeWorkItem = ({title, timespan, workRole, description}) => (
         <p>{description}</p>
     </li>
 )
-// <span role="img" naria-label="printer">🖨</span> 
-// <Emoji symbol="🐑" label="sheep"/>
+
 const ResumeEducationItem = ({title, graduation, major}) => (
     <li className="resume-item" key={title}>
         <h4><Emoji symbol="🎓" label="graduation Cap" />{title}</h4>
