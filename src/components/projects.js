@@ -1,5 +1,5 @@
 import React, { useState, useLayoutEffect } from "react"
-import Project from "./Project";
+import Project from "./project";
 import { useTrail, animated } from 'react-spring'
 
 let projects = [

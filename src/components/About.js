@@ -4,7 +4,7 @@ export class About extends Component {
     render() {
         return (
             <div>
-                <img className="me-img"  src="/portfolio-img.png"/>
+                <img className="me-img"  src="/portfolio-img.png" alt="image"/>
                 <h2>About me</h2>
                 <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
