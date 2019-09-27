@@ -106,11 +106,11 @@ footer{
 .resume-container .resume-item:first-child {
   margin-top: 1.6rem;
 }
-.resume-container .resume-item .role {
+.resume-container .resume-item .workRole {
   display: block;
   margin-top: .4rem;
 }
-.resume-container .resume-item .role,
+.resume-container .resume-item .workRole,
 .resume-container .resume-item .timespan {
   color: #464646;
 }
